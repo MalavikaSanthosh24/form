@@ -1,0 +1,42 @@
+body{
+    margin-top: 10px;
+    display:flex;
+    justify-content:center;
+    
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    overflow: hidden;
+}
+.container{
+  
+    width:400px;
+    height:100vh;
+   background-color: aliceblue;
+    
+ 
+   
+}
+.textbox{
+ width:379px;
+ height:30px;
+ margin-top: 15px;
+ margin-left: 5px;
+}
+.button{
+     margin-top:20px ;
+     height: 35px;
+    width: 200px;
+    color: white;
+    /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
+    background:#9b59b6;
+    font-size: 1rem;
+    border: none;
+    text-align: center;
+    margin-left: 80px;
+}
+.danger{
+    color:red;
+    
+}
+.main{
+    text-align: center;
+}

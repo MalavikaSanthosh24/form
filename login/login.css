@@ -1,0 +1,50 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    overflow: hidden;
+
+}
+.container{
+    width:400px;
+    height:350px;
+    text-align: center;
+    background-color: aliceblue;
+}
+header{
+    color: black;
+    font-size: 1rem;
+}
+.textbox{
+    margin-top: 15px;
+    height:30px;
+    width:300px;
+}
+
+button{
+   width:250px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    height:40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+button:hover{
+    background-color:  #9b59b6;
+}
+.danger{
+    color:red;
+    font-size: 1rem;
+}
+
+
+
